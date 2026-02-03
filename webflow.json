@@ -1,5 +1,8 @@
 {
   "cloud": {
-    "framework": "nextjs"
+    "framework": "nextjs",
+    "buildCommand": "npm run web:build",
+    "outputDirectory": "dist",
+    "nodeVersion": "20"
   }
 }
