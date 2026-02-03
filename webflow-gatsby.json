@@ -1,0 +1,8 @@
+{
+  "cosmic": {
+    "framework": "gatsby",
+    "buildCommand": "npm install --legacy-peer-deps && npm run web:build",
+    "outputDirectory": "dist",
+    "nodeVersion": "20"
+  }
+}
