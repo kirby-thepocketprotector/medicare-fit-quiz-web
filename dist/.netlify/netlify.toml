@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/kirbydimsontompong/Downloads/rork-medicare-fit-quiz-main/dist/dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "/Users/kirbydimsontompong/Downloads/rork-medicare-fit-quiz-main/dist"
+command = "npm run web:build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

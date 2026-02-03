@@ -2,6 +2,10 @@
   "name": "expo-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "description": "Medicare Fit Quiz - React Native Web App",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "bunx rork start -p 7di3hq7xlc3xzau4a2dsd --tunnel",
     "start-web": "bunx rork start -p 7di3hq7xlc3xzau4a2dsd --web --tunnel",
