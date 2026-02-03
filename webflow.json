@@ -1,4 +1,12 @@
 {
+  "cosmic": {
+    "framework": "react",
+    "buildCommand": "npm run web:build",
+    "outputDirectory": "dist",
+    "installCommand": "npm install --legacy-peer-deps",
+    "nodeVersion": "20",
+    "environmentVariables": {}
+  },
   "build": {
     "command": "npm run web:build",
     "outputDirectory": "dist",
