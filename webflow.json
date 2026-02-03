@@ -1,0 +1,27 @@
+{
+  "build": {
+    "command": "npm run web:build",
+    "outputDirectory": "dist",
+    "environment": {
+      "NODE_VERSION": "20"
+    }
+  },
+  "routes": [
+    {
+      "path": "/",
+      "file": "index.html"
+    },
+    {
+      "path": "/splash",
+      "file": "splash.html"
+    },
+    {
+      "path": "/quiz/*",
+      "file": "quiz/$1.html"
+    },
+    {
+      "path": "/result/*",
+      "file": "result/$1.html"
+    }
+  ]
+}
